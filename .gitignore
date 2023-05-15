@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+
+# Session data files
+.RData
+.Ruserdata
+
+# RStudio files
+.KaroCol.Rproj
+.Rproj.user
+
