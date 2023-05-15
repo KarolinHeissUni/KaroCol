@@ -23,5 +23,5 @@ hello <- function() {
 #' @export
 #' @param str text variable
 helloX <- function(str) {
-  print("Hello !" + str)
+  print("Hello !", str)
 }
