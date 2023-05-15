@@ -2,7 +2,7 @@
 % Please edit documentation in R/hello.R
 \name{helloX}
 \alias{helloX}
-\title{Prints "Hello Karo!" text}
+\title{Prints "Hello" + str param in funny colors}
 \usage{
 helloX(str)
 }
@@ -10,5 +10,5 @@ helloX(str)
 \item{str}{text variable}
 }
 \description{
-Prints "Hello Karo!" text
+Prints "Hello" + str param in funny colors
 }

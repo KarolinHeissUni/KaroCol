@@ -19,9 +19,10 @@ hello <- function() {
   print("Hello Karo !!!")
 }
 
-#' Prints "Hello Karo!" text
+#' Prints "Hello" + str param in funny colors
 #' @export
 #' @param str text variable
 helloX <- function(str) {
-  print(paste("Hello ", str))
+  text = paste("Hallo", str);
+  unikn::heading(labels=c(text), col=unikn::pal_petrol, col_bg = unikn::pal_unikn$seeblau5)
 }
