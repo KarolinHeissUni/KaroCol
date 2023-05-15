@@ -1,7 +1,7 @@
 Package: KaroCol
 Type: Package
 Title: What the Package Does (Title Case)
-Version: 0.1.2
+Version: 0.1.3
 Author: Karolin Heiss
 Maintainer: The package maintainer <karolin.heiss@gmail.com>
 Description: Testing how to create my first packages based on package unikn
