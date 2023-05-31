@@ -7,7 +7,7 @@ Maintainer: Karolin Heiss <karolin.heiss@gmail.com>
 Description: Testing how to create my first packages based on package unikn. Addes also test code to create first own color palette.
 License: GPL-3
 Encoding: UTF-8
-LazyData: true
+LazyData: false
 RoxygenNote: 7.2.3
 Imports:
     unikn
