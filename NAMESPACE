@@ -2,5 +2,6 @@
 
 export(hello)
 export(helloX)
+export(pal_uni_sgtt_hex)
+export(pal_uni_sgtt_rgb)
 export(showKaroColors)
-export(uni_sgtt)
