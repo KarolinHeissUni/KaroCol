@@ -33,7 +33,7 @@ unikn::seecol(pal_uni_sgtt_hex, main = "Primary colors of the University of Stut
 \code{\link{newpal}} for defining new color palettes;
 \code{\link{grepal}} for finding named colors.
 
-Other contributed color palettes:
+Other contributed color palettes: 
 \code{\link{pal_uni_sgtt_rgb}}
 }
 \author{

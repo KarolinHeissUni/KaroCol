@@ -37,7 +37,7 @@ showKaroColors <- function() {
 
 #' Prints "Hello Karo!" text
 #' @export
-hello <- function() {
+helloKaro <- function() {
   print("Hello Karo !!!")
 }
 
