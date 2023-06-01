@@ -12,20 +12,24 @@ library("unikn")
 # "Weiß ist die wichtigste Flächenfarbe der Universität Stuttgart.
 # Alle Medien arbeiten mit großzügigem Weißraum. anthrazit und Mittelblau sind
 # die Primärfarben und kommen in der Vollfläche und als Schriftfarben vor."
-
+#
+# CMYK Farbwerte weichen start von den RGB und HEX Farbwerten ab.
+# Für die Farbpalette nehmen wir bei jeder Farbe den HEX Wert.
+#
 # Primary color 1 "WEISS"
-# RGB 255 / 255 / 255
+# RGB 255/255/255
 # HEX #FFFFFF
 col_sgtt_weiss <- "#FFFFFF"
 
 # Primary color 2 "ANTHRAZIT"
-# PANTONE 432 U
-# CMYK 50 / 35 / 25 / 70
-# RGB 62 / 68 / 76
+# PANTONE 432U
+# CMYK 50/35/25/70
+# RGB 62/68/76
 # HEX #323232
 #
-# NOTE: #323232 => RGB 50 / 50 / 50
-#       RGB 62 / 68 / 76 => #3E444C
+# NOTE: #323232 => RGB 50/50/50
+#       RGB 62/68/76 => #3E444C
+#       CMYK 50/35/25/70 => RGB 38/50/57, #263239
 col_sgtt_antrazit <- "#323232"
 
 # TODO: was machen wir mit solchen Informationen?
@@ -34,13 +38,14 @@ col_sgtt_offset_print_antrazit <- "#1a1a1a"
 col_sgtt_offset_print_text_antrazit <- "#000000"
 
 # Primary color 3 "MITTELBLAU"
-# PANTONE 293 U
-# CMYK 100 / 70 / 0 / 0
-# RGB 0 / 81 / 158
+# PANTONE 293U
+# CMYK 100/70/0/0
+# RGB 0/81/158
 # HEX #004191
 #
-# NOTE: #004191 => RGB 0 / 65 / 145
-#       RGB 0 / 81 / 158 => #00519E
+# NOTE: #004191 => RGB 0/65/145
+#       RGB 0/81/158 => #00519E
+#       CMYK 100/70/0/0 => RGB 0/77/255, #004DFF (looks very different!)
 col_sgtt_mittelblau <- "#004191"
 
 # Secondary color
@@ -50,53 +55,28 @@ col_sgtt_mittelblau <- "#004191"
 # Bestandteil des Corporate Designs, wird allerdings
 # lediglich in der Vollfläche für Hintergründe eingesetzt."
 
-# Secondary color "HEllBlaU"
-# PANTONE 2985 U
-# CMYK 70 / 0 / 0 / 0
-# RGB 0 / 190 / 255
+# Secondary color "HEllBlAU"
+# PANTONE 2985U
+# CMYK 70/0/0/0 (looks very different!)
+# RGB 0/190/255
 # WEB #00BEFF
 col_sgtt_hellblau <- "#00BEFF"
 
 
-# - uni_sgtt_rgb: Primary colors (rgb definition) ----
+# - uni_sgtt_rgb: Primary colors ----
 
 #' Primary colors of the University of Stuttgart
 #'
-#' Primary color 1 "WEISS"
-#' RGB 255 / 255 / 255
-#' HEX #FFFFFF
-#'
-#' Primary color 2 "ANTHRAZIT"
-#' PANTONE 432 U
-#' CMYK 50 / 35 / 25 / 70
-#' RGB 62 / 68 / 76
-#' HEX #323232
-#'
-#' NOTE:
-#' RGB != HEX, we work with HEX!
-#' #323232 => RGB 50 / 50 / 50
-#' RGB 62 / 68 / 76 => #3E444C
-#'
-#' Primary color 3 "MITTELBLAU"
-#' PANTONE 293 U
-#' CMYK 100 / 70 / 0 / 0
-#' RGB 0 / 81 / 158
-#' HEX #004191
-#'
-#' NOTE:
-#' RGB != HEX, we work with HEX!
-#' #004191 => RGB 0 / 65 / 145
-#' RGB 0 / 81 / 158 => #00519E
-#'
-#'
-#' Secondary color "HEllBlaU"
-#' PANTONE 2985 U
-#' CMYK 70 / 0 / 0 / 0
-#' RGB 0 / 190 / 255
-#' HEX #00BEFF
-#'
 #' \code{uni_sgtt} provides the three primary colors and one secondary color
 #' of the \href{https://www.uni-stuttgart.de/en}{University of Stuttgart}, Germany.
+#'
+#' The tree primary colors are
+#' \code{"white"},
+#' \code{"ANTHRAZIT"} (defined as PANTONE 432U, CMYK 50/35/25/70, RGB 62/68/76, HEX #323232), and
+#' \code{"MITTELBLAU"} (defined as PANTONE 293U, CMYK 100/70/0/0, RGB 0/81/158, HEX #004191).
+#'
+#' The secondary color is
+#' \code{"HEllBlAU"} (defined as PANTONE 2985U, CMYK 70/0/0/0, RGB 0/190/255, HEX #00BEFF).
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
