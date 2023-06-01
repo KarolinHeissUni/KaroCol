@@ -63,7 +63,7 @@ col_sgtt_mittelblau <- "#004191"
 col_sgtt_hellblau <- "#00BEFF"
 
 
-# - uni_sgtt_rgb: Primary colors ----
+# - uni_sgtt: Primary colors ----
 
 #' Primary colors of the University of Stuttgart
 #'
@@ -77,6 +77,10 @@ col_sgtt_hellblau <- "#00BEFF"
 #'
 #' The secondary color is
 #' \code{"HEllBlAU"} (defined as PANTONE 2985U, CMYK 70/0/0/0, RGB 0/190/255, HEX #00BEFF).
+#'
+#' \code{uni_sgtt} uses the HEX color definition. CMYK color differs from RGB and HEX definition.
+#' For \code{"ANTHRAZIT"} and \code{"MITTELBLAU"} RGB and HEX definition also differs in numbers but not really visible by eye.
+#' This color palette uses the HEX definition!
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -106,5 +110,5 @@ pal_uni_sgtt <- newpal(col = c(col_sgtt_weiss, col_sgtt_antrazit, col_sgtt_mitte
                      names = c("uni weiss", "uni antrazit hex", "uni mittelblau hex", "uni hellblau hex"),
                      as_df = FALSE)
 
-seecol(pal_uni_sgtt, main = "Primary colors of Uni Stuttgart")
+#seecol(pal_uni_sgtt, main = "Primary colors of Uni Stuttgart")
 

@@ -29,6 +29,10 @@ The tree primary colors are
 
 The secondary color is
 \code{"HEllBlAU"} (defined as PANTONE 2985U, CMYK 70/0/0/0, RGB 0/190/255, HEX #00BEFF).
+
+\code{uni_sgtt} uses the HEX color definition. CMYK color differs from RGB and HEX definition.
+For \code{"ANTHRAZIT"} and \code{"MITTELBLAU"} RGB and HEX definition also differs in numbers but not really visible by eye.
+This color palette uses the HEX definition!
 }
 \examples{
 pal_uni_sgtt
