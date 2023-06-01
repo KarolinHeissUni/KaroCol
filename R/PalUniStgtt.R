@@ -28,7 +28,8 @@ col_sgtt_weiss <- "#FFFFFF"
 #       RGB 62 / 68 / 76 => #3E444C
 col_sgtt_antrazit <- "#323232"
 
-# TODE KARO: was machen wir mit solchen Informationen? => 2 extra Paletten mit diesen "offset_print" und "offset_print_text" Farben?
+# TODO: was machen wir mit solchen Informationen?
+# TODO: 2 extra Paletten mit diesen "offset_print" und "offset_print_text" Farben?
 col_sgtt_offset_print_antrazit <- "#1a1a1a"
 col_sgtt_offset_print_text_antrazit <- "#000000"
 
@@ -109,7 +110,7 @@ col_sgtt_hellblau <- "#00BEFF"
 #'
 #' @examples
 #' pal_uni_sgtt
-#' unikn::seecol(pal_uni_sgtt, main = "Primary colors of the University of Stuttgart HEX")  # view color palette hex colors
+#' unikn::seecol(pal_uni_sgtt, main = "Primary colors of the University of Stuttgart")  # view color palette hex colors
 #'
 #' @family contributed color palettes
 #'
