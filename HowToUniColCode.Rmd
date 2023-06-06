@@ -1,0 +1,53 @@
+---
+title: "PalCreation"
+author: "Karolin Heiss"
+date: "2023-06-06"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## File name `pal_*`
+R File for new color definition `pal_*` e.g. `pal_uni_stuttgart`.<br> 
+Every color definition for an university is stored in a separate file. This file  contains all color palettes for the university.
+
+# Code style
+For easy reading and maintaining we stick zu some coding rules.
+
+## Variable names 
+We have 2 types of variables:<br>
+
+- **Intern color variable** col_uni_* e.g. col_sgtt_mittelBlau<br>
+Every color we use, we create a variable with internal documentation. For easy reading prefer camelcase e.g. col_UR_laerchenNadelGruen instet of col_UR_laerchennadelgruen<br>
+Use color variable name from documentation. Don't invent new names. It can be in English or German.
+
+- **Extern color palette variable** uni_* e.g. uni_Stuttgart<br>
+`pal_uni_sgtt <- newpal(`<br>
+`col = c(col_sgtt_weiss, col_sgtt_antrazit, col_sgtt_mittelBlau, col_sgtt_hellBlau),`<br>
+`names = c("uni weiss", "uni antrazit", "uni Mittelblau", "uni Hellblau hex"),`<br>
+`as_df = FALSE)`
+
+## Comments
+- **Intern comment** can be in English or German.  
+- **External comment** like package documentation and exported headers has to be in English.
+
+# Open points / Questions
+1. How to comment mismatch of color definitions e.g. Hex != RGB != CMYK ?
+
+`Primary color 3 "MITTELBLAU"`<br>
+`PANTONE 293U`<br>
+`CMYK 100/70/0/0`<br>
+`RGB 0/81/158`<br>
+`HEX #004191`<br>
+<br>
+`Note color definition mismatch:`<br>
+`#004191 => RGB 0/65/145 != defined RGB 0/81/158`<br>
+`RGB 0/81/158 => #00519E != defined HEX #004191`<br>
+`CMYK 100/70/0/0 => RGB 0/77/255, #004DFF (looks very different!)`<br>
+<br>
+`col_sgtt_mittelblau <- "#004191"`
+
+
+
+
