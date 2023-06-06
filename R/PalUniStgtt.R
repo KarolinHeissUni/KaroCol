@@ -46,7 +46,7 @@ col_sgtt_offset_print_text_antrazit <- "#000000"
 # NOTE: #004191 => RGB 0/65/145
 #       RGB 0/81/158 => #00519E
 #       CMYK 100/70/0/0 => RGB 0/77/255, #004DFF (looks very different!)
-col_sgtt_mittelblau <- "#004191"
+col_sgtt_mittelBlau <- "#004191"
 
 # Secondary color
 
@@ -60,7 +60,7 @@ col_sgtt_mittelblau <- "#004191"
 # CMYK 70/0/0/0 (looks very different!)
 # RGB 0/190/255
 # WEB #00BEFF
-col_sgtt_hellblau <- "#00BEFF"
+col_sgtt_hellBlau <- "#00BEFF"
 
 
 # - uni_sgtt: Primary colors ----
@@ -106,8 +106,8 @@ col_sgtt_hellblau <- "#00BEFF"
 #' \code{\link{grepal}} for finding named colors.
 #'
 #' @export
-pal_uni_sgtt <- newpal(col = c(col_sgtt_weiss, col_sgtt_antrazit, col_sgtt_mittelblau, col_sgtt_hellblau),
-                     names = c("uni weiss", "uni antrazit hex", "uni mittelblau hex", "uni hellblau hex"),
+pal_uni_sgtt <- newpal(col = c(col_sgtt_weiss, col_sgtt_antrazit, col_sgtt_mittelBlau, col_sgtt_hellBlau),
+                     names = c("uni weiss", "uni antrazit", "uni MittelBlau", "uni HellBlau"),
                      as_df = FALSE)
 
 #seecol(pal_uni_sgtt, main = "Primary colors of Uni Stuttgart")
