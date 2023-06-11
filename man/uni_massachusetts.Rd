@@ -33,7 +33,7 @@ and used for contrast reasons.
 }
 \examples{
 uni_massachusetts
-unikn::seecol(uni_massachusetts, main = "Massachusetts Institute of Technology") # view color palette
+unikn::seecol(uni_massachusetts, main = "MIT, Massachusetts Institute of Technology") # view color palette
 
 }
 \seealso{

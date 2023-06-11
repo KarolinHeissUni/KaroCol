@@ -4,8 +4,8 @@
 
 # Information: ------
 
-# uni_pals: "uni_massachusetts" (1)
-# inst: "Massachusetts Institute of Technology"
+# uni_pals: "uni_massachusetts"
+# inst: "MIT, Massachusetts Institute of Technology"
 # country: USA
 # URL: "https://web.mit.edu"
 
@@ -75,7 +75,7 @@ col_lightgray <- "#C2C0BF"
 #'
 #' @examples
 #' uni_massachusetts
-#' unikn::seecol(uni_massachusetts, main = "Massachusetts Institute of Technology") # view color palette
+#' unikn::seecol(uni_massachusetts, main = "MIT, Massachusetts Institute of Technology") # view color palette
 #'
 #' @family university color palettes
 #'
@@ -93,7 +93,7 @@ uni_massachusetts <- unikn::newpal(col = c(col_black, col_red, col_gray, col_lig
                            as_df = FALSE)
 
 # # Check:
-unikn::seecol(uni_massachusetts, main = "Primary colors of Massachusetts Institute of Technology", col_bg = "white")
+unikn::seecol(uni_massachusetts, main = "Primary colors of MIT, Massachusetts Institute of Technology", col_bg = "white")
 
 
 
