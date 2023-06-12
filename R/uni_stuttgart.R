@@ -8,7 +8,7 @@
 # inst: "University of Stuttgart"
 # inst_alt: "Universit\u00E4t Stuttgart"
 # country: Germany
-# URL: "https://www.uni-stuttgart.de"
+# URL: "https://www.uni-stuttgart.de/"
 
 # Color source:
 
@@ -146,5 +146,10 @@ uni_stuttgart <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBlau,
 # # Check: 
 # unikn::seecol(uni_stuttgart, main = "Primary colors of the University of Stuttgart", col_bg = "lightgrey")
 
+
+
+## ToDo: -------- 
+
+# - etc.
 
 ## eof. ----------
