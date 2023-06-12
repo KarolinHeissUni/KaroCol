@@ -140,7 +140,7 @@ col_hellBlau <- "#00BEFF"
 #' @export
 
 uni_stuttgart <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBlau, col_hellBlau, col_anthrazit_print_grayscale, col_black_print_text),
-                               names = c("weiss", "anthrazit", "mittelblau", "hellblau", "anthrazit print grayscale", "black print text"),
+                               names = c("weiss", "anthrazit", "mittelblau", "hellblau", "anthrazitprintgrayscale", "blackprinttext"),
                                as_df = FALSE)
 
 # # Check: 
