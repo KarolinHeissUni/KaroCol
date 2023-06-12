@@ -93,7 +93,7 @@ uni_mit <- unikn::newpal(col = c(col_black, col_red, col_gray, col_lightgray),
                            as_df = FALSE)
 
 # # Check:
-unikn::seecol(uni_mit, main = "Primary colors of MIT, Massachusetts Institute of Technology", col_bg = "white")
+#unikn::seecol(uni_mit, main = "Primary colors of MIT, Massachusetts Institute of Technology", col_bg = "white")
 
 
 
