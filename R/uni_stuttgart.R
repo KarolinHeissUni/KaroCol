@@ -1,5 +1,5 @@
 ## uni_stuttgart.R | 2023 06 09
-## Colors of the University of Stuttgart, Germany 
+## Colors of the University of Stuttgart, Germany
 ## -----------------------------------------------
 
 # Information: ------
@@ -18,7 +18,7 @@
 # Last check: 2023-05-31
 
 
-# Colors: ------ 
+# Colors: ------
 
 # Primary colors
 #
@@ -48,10 +48,10 @@ col_weiss <- "#FFFFFF"  # same as "white"
 col_anthrazit <- "#323232"
 
 # Sollte ein Medium nur in Graustufen gedruckt werden, wird der anthrazitwert
-# in 90% Schwarz umgewandelt 
+# in 90% Schwarz umgewandelt
 # CMYK 0/0/0/90
 
-col_anthrazit_print_grayscale <- "#1a1a1a"
+col_anthrazit_print_blackwhite <- "#1a1a1a"
 
 # In Korrespondenzmedien (etwa Briefverkehr) kann für eine bessere Lesbarkeit des
 # Fließtextes auch 100% Schwarz verwendet werden
@@ -102,25 +102,25 @@ col_hellBlau <- "#00BEFF"
 #' \code{"mittelblau"} (defined as PANTONE 293U, CMYK 100/70/0/0, RGB 0/81/158, HEX #004191).
 #'
 #' The secondary color is
-#' \code{"hellblau"} (defined as PANTONE 2985U, CMYK 70/0/0/0, RGB 0/190/255, HEX #00BEFF) 
-#' and used for color accents. 
+#' \code{"hellblau"} (defined as PANTONE 2985U, CMYK 70/0/0/0, RGB 0/190/255, HEX #00BEFF)
+#' and used for color accents.
 #'
 #' Alternative colors for printing \code{"anthrazit"} are
-#' \code{"anthrazit_print_grayscale"} (defined as CMYK 0/0/0/90) for printing grayscale only with better contrast, and
-#' \code{"anthrazit_print_text"} (defined as CMYK 0/0/0/100) for printing text block in correspondence.
+#' \code{"anthrazitprintblackwhite"} (defined as CMYK 0/0/0/90) for printing black and white with better contrast, and
+#' \code{"blackprinttext"} (defined as CMYK 0/0/0/100) for printing text block in correspondence.
 #'
-#' \code{uni_stuttgart} uses the HEX color definition. 
+#' \code{uni_stuttgart} uses the HEX color definition.
 #' CMYK color differs from RGB and HEX definition.
-#' For \code{"anthrazit"} and \code{"mittelblau"} the RGB and HEX definitions also differ numerically, 
+#' For \code{"anthrazit"} and \code{"mittelblau"} the RGB and HEX definitions also differ numerically,
 #' yet are visually indistinguishable. Our color palette is based on the HEX definition.
 #'
-#' @return 
+#' @return
 #' A named vector of colors (HEX/HTML codes of type character).
 #'
-#' @author 
+#' @author
 #' \strong{unicol}, 2023-05-31.
 #'
-#' @source 
+#' @source
 #' Color definitions are based on the
 #' \href{https://www.beschaeftigte.uni-stuttgart.de/uni-services/oeffentlichkeitsarbeit/corporate-design/cd-dateien/Uni_Stuttgart_CD-Manual.pdf}{CD manual (PDF)}.
 #'
@@ -139,16 +139,16 @@ col_hellBlau <- "#00BEFF"
 #'
 #' @export
 
-uni_stuttgart <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBlau, col_hellBlau, col_anthrazit_print_grayscale, col_black_print_text),
-                               names = c("weiss", "anthrazit", "mittelblau", "hellblau", "anthrazitprintgrayscale", "blackprinttext"),
+uni_stuttgart <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBlau, col_hellBlau, col_anthrazit_print_blackwhite, col_black_print_text),
+                               names = c("weiss", "anthrazit", "mittelblau", "hellblau", "anthrazitprintblackwhite", "blackprinttext"),
                                as_df = FALSE)
 
-# # Check: 
+# # Check:
 # unikn::seecol(uni_stuttgart, main = "Primary colors of the University of Stuttgart", col_bg = "lightgrey")
 
 
 
-## ToDo: -------- 
+## ToDo: --------
 
 # - etc.
 
