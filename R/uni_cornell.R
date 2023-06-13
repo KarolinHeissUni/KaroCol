@@ -99,7 +99,7 @@ uni_cornell_primary_web_1 <- unikn::newpal(col = c("#B31B1B", "#222222", "#FFFFF
 #'
 #' @examples
 #' uni_cornell_secondary_web_2
-#' unikn::seecol(uni_cornell_secondary_web_2, main = "Secondary colors Cornell Uni") # view color palette
+#' unikn::seecol(uni_cornell_secondary_web_2, main = "Secondary colors Cornell Uni") # view colors
 #'
 #' @family university color palettes
 #'
