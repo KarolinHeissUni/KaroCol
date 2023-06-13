@@ -5,7 +5,7 @@
 # Information: ------
 
 # uni_pals: "uni_penn_logo_1", "uni_penn_web_2" (2)
-# inst: "University of Pennsylvania"
+# inst: "Penn, University of Pennsylvania"
 # country: USA
 # URL: "https://www.upenn.edu/"
 
