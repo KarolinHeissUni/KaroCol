@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "uni_stuttgart_1", "uni_stuttgart_2_print"
+# uni_pals: "uni_stuttgart_1", "uni_stuttgart_2_print" (2)
 # inst: "University of Stuttgart"
 # inst_alt: "Universit\u00E4t Stuttgart"
 # country: Germany
@@ -47,11 +47,13 @@ col_weiss <- "#FFFFFF"  # same as "white"
 
 col_anthrazit <- "#323232"
 
+
 # Sollte ein Medium nur in Graustufen gedruckt werden, wird der anthrazitwert
 # in 90% Schwarz umgewandelt
 # CMYK 0/0/0/90
 
 col_anthrazit_print_blackwhite <- "#1a1a1a"
+
 
 # In Korrespondenzmedien (etwa Briefverkehr) kann für eine bessere Lesbarkeit des
 # Fließtextes auch 100% Schwarz verwendet werden
@@ -122,12 +124,12 @@ col_hellBlau <- "#00BEFF"
 #'
 #' @examples
 #' uni_stuttgart_1
-#' unikn::seecol(uni_stuttgart_1, main = "Primary colors of the University of Stuttgart") # view color palette
+#' unikn::seecol(uni_stuttgart_1, main = "Primary colors Uni Stuttgart") # view color palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_stuttgart_2_print}} for printing anthrazit with more contrast
+#' \code{\link{uni_stuttgart_2_print}} for Stuttgart's primary colors with alternative printing colors for more contrast
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -140,9 +142,11 @@ uni_stuttgart_1 <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBla
                                names = c("weiss", "anthrazit", "mittelblau", "hellblau"),
                                as_df = FALSE)
 
+
 # # Check:
 # unikn::seecol(uni_stuttgart_1, main = "Printing colors of the University of Stuttgart", col_bg = "lightgrey")
 
+# - uni_stuttgart_2_print: Printing colors ------
 
 #' Printing colors of the University of Stuttgart
 #'
@@ -159,7 +163,7 @@ uni_stuttgart_1 <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBla
 #' and used for color accents.
 #'
 #' The alternative printing colors are provided to replace \code{"anthrazit"} for better contrast. Use
-#' \code{"anthrazit2"} (defined as CMYK 0/0/0/90) when printing black and white, and
+#' \code{"anthrazit dark"} (defined as CMYK 0/0/0/90) when printing black and white, and
 #' \code{"black"} (defined as CMYK 0/0/0/100) when printing text block in correspondence.
 #'
 #' \code{uni_stuttgart_2_print} uses the HEX color definition.
@@ -179,12 +183,12 @@ uni_stuttgart_1 <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBla
 #'
 #' @examples
 #' uni_stuttgart_2_print
-#' unikn::seecol(uni_stuttgart_2_print, main = "Printing colors of University of Stuttgart") # view color palette
+#' unikn::seecol(uni_stuttgart_2_print, main = "Printing colors Uni Stuttgart") # view color palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_stuttgart_1}} for Stuttgart's primary colors
+#' \code{\link{uni_stuttgart_1}} for Stuttgart's primary colors without printing colors
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -194,15 +198,14 @@ uni_stuttgart_1 <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBla
 #' @export
 
 uni_stuttgart_2_print <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBlau, col_hellBlau, col_anthrazit_print_blackwhite, col_black_print_text),
-                               names = c("weiss", "anthrazit", "mittelblau", "hellblau", "anthrazit2", "black"),
+                               names = c("weiss", "anthrazit", "mittelblau", "hellblau", "anthrazit dark", "black"),
                                as_df = FALSE)
+
 
 # # Check:
 # unikn::seecol(uni_stuttgart_2_print, main = "Printing colors of the University of Stuttgart", col_bg = "lightgrey")
 
 
-
-## ToDo: --------
 
 # - etc.
 

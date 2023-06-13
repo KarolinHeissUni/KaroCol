@@ -4,10 +4,11 @@
 
 # Information: ------
 
-# uni_pals: "uni_mit"
-# inst: "MIT, Massachusetts Institute of Technology"
+# uni_pals: "mit_1"
+# inst: "MIT"
+# inst_alt: "MIT, Massachusetts Institute of Technology"
 # country: USA
-# URL: "https://web.mit.edu"
+# URL: "https://web.mit.edu/"
 
 # Color source:
 
@@ -22,36 +23,35 @@
 # Light gray may also be used for contrast reasons.
 #
 # Primary color 1 "BLACK"
-# RGB 255/255/255
-# HEX #FFFFFF
 col_black <- "black"
 
-# Primary color 2 "RED"
+# Primary color 2 "red"
 # RGB 163/31/52
 # HEX #A31F34
 # PMS 201
-col_red <- "#A31F34"
+col_red_PMS201 <- "#A31F34"
 
-# Primary color 3 "GRAY"
+# Primary color 3 "grey"
 # RGB 138/139/140
 # HEX #8A8B8C
 # PMS 424
-col_gray <- "#8A8B8C"
+col_gray_PMS424 <- "#8A8B8C"
 
-# Secondary color 1 "LIGHT GRAY"
+# Secondary color 1 "light gray"
 # RGB 194/192/191
 # HEX #C2C0BF
-col_lightgray <- "#C2C0BF"
+# PMS 420
+col_lightgray_PMS420 <- "#C2C0BF"
 
 
 # Color palette(s):
 
 
-# - uni_mit: Primary colors ------
+# - mit_1: Primary colors ------
 
 #' Colors of MIT, Massachusetts Institute of Technology, USA
 #'
-#' \code{uni_mit} provides the three primary colors
+#' \code{mit_1} provides the three primary colors
 #' of the \href{https://web.mit.edu}{Massachusetts Institute of Technology}, USA.
 #'
 #' The three primary colors are
@@ -74,8 +74,8 @@ col_lightgray <- "#C2C0BF"
 #' \href{https://web.mit.edu/graphicidentity/colors.html}{Color manual (HTML)}.
 #'
 #' @examples
-#' uni_mit
-#' unikn::seecol(uni_mit, main = "MIT, Massachusetts Institute of Technology") # view color palette
+#' mit_1
+#' unikn::seecol(mit_1, main = "MIT, Massachusetts Institute of Technology") # view color palette
 #'
 #' @family university color palettes
 #'
@@ -88,13 +88,14 @@ col_lightgray <- "#C2C0BF"
 #'
 #' @export
 
-uni_mit <- unikn::newpal(col = c(col_black, col_red, col_gray, col_lightgray),
-                           names = c("black", "red", "gray", "lightgray"),
+mit_1 <- unikn::newpal(col = c(col_black, col_red_PMS201, col_gray_PMS424, col_lightgray_PMS420),
+                           names = c("black", "PMS 201", "PMS 424", "PMS 420"),
                            as_df = FALSE)
 
 # # Check:
-#unikn::seecol(uni_mit, main = "Primary colors of MIT, Massachusetts Institute of Technology", col_bg = "white")
+unikn::seecol(mit_1, main = "Primary colors of MIT, Massachusetts Institute of Technology", col_bg = "white")
 
 
 
 ## eof. ----------
+
