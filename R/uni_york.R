@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "uni_york_primary_1", "uni_york_secondary_2", "uni_york_neutral_3", "uni_york_accent_4"(4)
+# uni_pals: "uni_york_primary_1", "uni_york_secondary_2", "uni_york_neutral_3", "uni_york_accent_4" (4)
 # inst: "University of York"
 # country: USA
 # URL: "https://www.nyu.edu"
