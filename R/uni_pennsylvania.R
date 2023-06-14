@@ -77,7 +77,7 @@ uni_penn_logo_1 <- unikn::newpal(col = c("#011F5B", "#990000"),
 #' \code{uni_penn_web_2} provides the 12 web colors
 #' of the \href{https://www.upenn.edu/}{University of Pennsylvania}, USA.
 #'
-#' This web colors are 
+#' These web colors are 
 #' \code{"penn_blue"} (defined as HEX #011F5B),
 #' \code{"penn_red"} (defined as HEX #990000),
 #' \code{"penn_blue2"} (defined as HEX #82AFD3),
@@ -90,7 +90,6 @@ uni_penn_logo_1 <- unikn::newpal(col = c("#011F5B", "#990000"),
 #' \code{"penn_grey3"} (defined as HEX #CCCCCC),
 #' \code{"penn_grey4"} (defined as HEX #999999) and
 #' \code{"penn_black"} (defined as HEX #333333).
-#' Web colors are defined HEX only.
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
